@@ -28,7 +28,7 @@ namespace WebAdminAPI.Controllers
         {
             return Enumerable.Range(1, 5).Select(index => new Currency
             {
-                Name = ,
+                Name = "",
                 Rate = Math.Round(getrandom.NextDouble() + getrandom.Next(1, 5), 2)
             }).ToArray();
         }
